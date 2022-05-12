@@ -1,5 +1,5 @@
 {% set name = "echemdb" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/echemdb-{{ version }}.tar.gz
-  sha256: 082b6e54c9d511bced5baf7999c65f846f2e86a7b9050375e5af06fa4c9cdf6a
+  sha256: 350c5775157c24f25fbff80ac23bf59f2aede68a7e811917fb7548644b1feac0
 
 build:
   noarch: python
