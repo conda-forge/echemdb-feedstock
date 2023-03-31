@@ -1,11 +1,11 @@
-About echemdb
-=============
+About echemdb-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/echemdb-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/echemdb/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/echemdb-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python library to interact and work with the echemdb repository.
 
