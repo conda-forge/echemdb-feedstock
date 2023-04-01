@@ -1,5 +1,5 @@
 {% set name = "echemdb" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/echemdb-{{ version }}.tar.gz
-  sha256: edc83ab4fdeb45429ce9d974e7b52894d525f370073c0f53113944addf05f3f4
+  sha256: 941f52e01319dd89eb6f26beacd99fdbc88079fc257134624f24b2fe3facab66
 
 build:
   noarch: python
@@ -21,12 +21,13 @@ requirements:
   run:
     - astropy >=5,<6
     - filelock >=3,<4
-    - frictionless >=4.29,<5
+    - frictionless >=5.10.1,<6
     - matplotlib-base >=3.5.0,<4
     - pandas >=1,<2
     - plotly >=5,<6
     - pybtex >=0.24,<0.25
     - python >=3.9
+    - svgdigitizer >=0.8.0,<0.9.0
 
 test:
   imports:
